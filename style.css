@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+header {
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    height: 80px;
+    padding-top: 50px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+    top: 0;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+}
+
+.sobremim {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(199, 196, 196);
+}
+
+.sobre h3{
+    padding-top: 200px;
+    padding-left: 100px;
+}
+
+.minhaFoto {
+    height: 400px;
+    width: 400px;
+    margin-right: 200px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    border-radius: 50%;
+}
+
+.projetos {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(149, 147, 147);
+}
+
+.imagemConstrucao {
+    height: 400px;
+    width: 400px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.contatos {
+    text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: bisque;
+}
+
+footer {
+    height: 300px;
+    text-align: center;
+    padding-top: 200px;
+    background-color: black;
+}
+
+footer h3 {
+    color: white;
+}
