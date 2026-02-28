@@ -1,51 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio</title>
+    <title>Portfólio - Seu Nome</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header>
-        <a href="">Home</a>
-        <a href="#sobree">Sobre mim</a>
-        <a href="#projetoss">Projetos</a>
-        <a href="#contatoss">Contatos</a>
-    </header>
-    <main>
-        <h1 id="sobree">Sobre mim</h1>
-        <div class="sobremim">
-            <div class="sobre">
-                <h3>Sou programador e estudante da Universidade Mogi das Cruzes (UMC)</h3>
-            </div>
-            <div>
-                <img src="https://avatars.githubusercontent.com/u/85034205?v=4" alt="" class="minhaFoto">
-            </div>
-        </div>
-        <h1 id="projetoss">Projetos</h1>
-        <div class="projetos">
-            <div>
-                <img src="img/construcao.png" alt="" class="imagemConstrucao">
-            </div>
-            <div>
-                <img src="img/construcao.png" alt="" class="imagemConstrucao">
-            </div>
-            <div>
-                <img src="img/construcao.png" alt="" class="imagemConstrucao">
-            </div>
-        </div>
-        <h1 id="contatoss">Contatos</h1>
-        <div class="contatos">
-            <a aria-label="Chat on WhatsApp" href="https://wa.me/+5511900001111"><img alt="Chat on WhatsApp" src="img/whatsapp.png"></a>
-            <a href=""><img src="img/github.png" alt=""></a>
-            <a href=""><img src="img/instagram.png" alt=""></a>
 
-        </div>
+<body>
+
+    <header>
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#projetos">Projetos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- APRESENTAÇÃO -->
+        <section class="hero">
+            <h1>Kauã Mendes de Moura</h1>
+            <p>Estudante de Tecnologia | Desenvolvedor Web</p>
+        </section>
+
+        <!-- SOBRE -->
+        <section id="sobre" class="sobre">
+            <h2>Sobre Mim</h2>
+            <p>
+                Sou estudante da Universidade Mogi das Cruzes (UMC) e desenvolvedor web.
+                Tenho interesse em front-end, back-end e desenvolvimento de aplicações modernas.
+            </p>
+        </section>
+
+        <!-- PROJETOS -->
+        <section id="projetos" class="projetos">
+            <h2>Projetos</h2>
+
+            <div class="cards-container">
+
+                <div class="card">
+                    <h3>Projeto 1</h3>
+                    <p>Descrição do primeiro projeto.</p>
+                    <a href="https://github.com/seuusuario/projeto1" target="_blank">
+                        Ver no GitHub
+                    </a>
+                </div>
+
+                <div class="card">
+                    <h3>Projeto 2</h3>
+                    <p>Descrição do segundo projeto.</p>
+                    <a href="https://github.com/seuusuario/projeto2" target="_blank">
+                        Ver no GitHub
+                    </a>
+                </div>
+
+                <div class="card">
+                    <h3>Projeto 3</h3>
+                    <p>Descrição do terceiro projeto.</p>
+                    <a href="https://github.com/seuusuario/projeto3" target="_blank">
+                        Ver no GitHub
+                    </a>
+                </div>
+
+            </div>
+        </section>
+
+        </section>
+
+        <!-- CONTATO -->
+        <section id="contato" class="contato">
+            <h2>Contato</h2>
+            <a href="https://github.com/seuusuario" target="_blank">
+                GitHub
+            </a>
+        </section>
+
     </main>
+
     <footer>
-        <h3>Desenvolvimento por Kauã Mendes de Moura</h3>
+        <p>Desenvolvido por Kauã Mendes de Moura</p>
     </footer>
-    <script src="script.js"></script>
+
 </body>
+
 </html>
